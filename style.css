@@ -1,24 +1,24 @@
-body{
+body {
     background-color: black;
     margin: 0;
     padding: 0;
     color: rgb(0, 255, 0);
 }
 
-nav{
+nav {
     background-color: rgb(39, 36, 36);
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 5%;
-    position: static;
+    height: 7%;
+    position: fixed;
     justify-content: space-between;
     top: 0;
     color: rgb(0, 255, 0);
     font-family: Atarifont;
 }
 
-#navd{
+#navd {
     display: flex;
     flex-direction: row;
     margin-right: 4%;
@@ -26,15 +26,20 @@ nav{
 
 #navd p {
     margin: 16px;
+    cursor: pointer;
 }
 
-#title{
+#title {
     margin-left: 4%;
 }
 
-h1{
+#home-page {
+    font-family: Atarifont;
+}
+
+h1 {
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 8%;
     font-size: 58px;
 }
 
@@ -48,7 +53,27 @@ h1{
     width: 40%;
     height: 40%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 8%;
+}
+
+#box1 p {
+    width: 100%;
+    padding: 30% 0% 30% 0%;
+}
+
+#box2 img {
+    position: absolute;
+    border-radius: 50%;
+    margin: 2% 12%;
+    scale: 1.2;
+}
+
+#box3 {
+    width: 100%;
+    margin-top: 4%;
+    height: 20%;
+    background-color: rgb(36, 32, 32);
+    position: absolute;
 }
 
 @font-face {

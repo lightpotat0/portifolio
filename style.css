@@ -88,7 +88,16 @@ h1 {
 #box3 img{
     width: 6%;
     margin: 6% 2%;
-    height: 0%;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+}
+
+#projects h3{
+    font-size: 200%;
+    font-family: Atarifont;
 }
 
 @font-face {

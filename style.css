@@ -132,7 +132,7 @@ h1 {
 #projects {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -153,39 +153,25 @@ h1 {
 #projects h3 {
     font-size: 200%;
     font-family: Atarifont;
+    margin: 0;
 }
 
-#pr1 {
-    background-color: rgb(36, 32, 32);
-    width: 30%;
-    height: auto;
-    border: 1px;
-    border-radius: 15px;
-}
-
-#pr1 img {
+#projects img {
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
 
-#pr2 {
+#pr {
     background-color: rgb(36, 32, 32);
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: auto;
+    border: 1px;
+    border-radius: 15px;
+    padding: 0.6%;
+    margin: 2% 1% 0% 1%;
 }
 
-#pr3 {
-    background-color: rgb(36, 32, 32);
-    width: 20%;
-    height: 20%;
-}
-
-#pr4 {
-    background-color: rgb(36, 32, 32);
-    width: 20%;
-    height: 20%;
-}
 
 @font-face {
     font-family: Atarifont;

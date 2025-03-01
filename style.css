@@ -10,13 +10,14 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 7%;
+    height: 6%;
     position: fixed;
     justify-content: space-between;
     top: 0;
     z-index: 20;
     color: rgb(0, 255, 0);
     font-family: Atarifont;
+    box-shadow: 10px 5px 5px rgb(26, 25, 25);
 }
 
 #navd {
@@ -26,12 +27,13 @@ nav {
 }
 
 #navd p {
-    margin: 16px;
+    margin: 16px 16px 0px 10px;
+    padding: 0%;
     cursor: pointer;
 }
 
 #title {
-    margin-left: 4%;
+    margin-left: 2%;
 }
 
 #home-page {
@@ -44,30 +46,65 @@ h1 {
     font-size: 58px;
 }
 
-#box1 {
-    background-color: rgb(36, 32, 32);
-    border: 1px;
-    text-align: center;
-    border-radius: 5px;
+#principal_box {
+    background-color: black;
+    width: 50%;
+    height: 50%;
     position: static;
-    border-color: green;
-    width: 40%;
-    height: 40%;
     margin-left: auto;
     margin-right: 8%;
+    border-radius: 5px;
+    border: 10px solid rgb(36, 32, 32);
+    box-shadow: 10px 5px 5px rgb(26, 25, 25);
+}
+
+#cabecalho_box {
+    background-color: rgb(36, 32, 32);
+    width: 100%;
+    height: auto;
+}
+
+#cabecalho_box p {
+    width: 25%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+
+#box1 {
+    background-color: black;
+    text-align: center;
+    position: static;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: 8%;
+    margin-top: 0;
 }
 
 #box1 p {
+    width: auto;
+    padding: 5% 0% 30% 0%;
+    margin: 0% 5%;
+}
+
+#box1 h2 {
     width: 100%;
-    padding: 30% 0% 30% 0%;
+    height: auto;
+    text-align: left;
+    margin: 0% 5%;
 }
 
 #box2 img {
     position: absolute;
+    width: auto;
+    height: 40%;
+    margin: 2% 10%;
     border-radius: 50%;
-    margin: 2% 12%;
-    scale: 1.2;
+    scale: 1;
     z-index: 1;
+    box-shadow: 10px 10px 15px 10px rgb(26, 25, 25);
 }
 
 #box3 {
@@ -87,22 +124,22 @@ h1 {
     position: absolute;
 }
 
-#box3 img{
+#box3 img {
     width: 6%;
     margin: 6% 2%;
 }
 
-#projects{
+#projects {
     display: flex;
     justify-content: center;
 }
 
-#projects h3{
+#projects h3 {
     font-size: 200%;
     font-family: Atarifont;
 }
 
-#projects div{
+#projects div {
     position: absolute;
     display: flexbox;
     flex-wrap: wrap;

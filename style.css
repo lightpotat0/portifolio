@@ -104,7 +104,14 @@ h1 {
     border-radius: 50%;
     scale: 1;
     z-index: 1;
-    box-shadow: 10px 10px 15px 10px rgb(26, 25, 25);
+    outline: 5px solid rgb(0, 255, 0);
+    outline-offset: 10px;
+    border-spacing: 5%;
+}
+
+#box2 img:hover {
+    scale: 1.05;
+    transition: scale 0.3s ease-in-out;
 }
 
 #box3 {
@@ -132,28 +139,32 @@ h1 {
 #projects {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-content: center;
     align-items: center;
-    flex-wrap: wrap;
     font-family: Atarifont;
+    position: relative;
+    gap: 10px;
+    margin: 3%;
 }
 
 #projects h1 {
     font-size: 300%;
     margin: 0;
     text-align: center;
+    cursor: pointer;
 }
 
 #projects p {
     text-align: center;
     font-size: 120%;
+    cursor: default;
 }
 
 #projects h3 {
     font-size: 200%;
-    font-family: Atarifont;
-    margin: 0;
+    text-align: center;
+    top: -30px;
+    position: absolute;
 }
 
 #projects img {
@@ -164,12 +175,25 @@ h1 {
 
 #pr {
     background-color: rgb(36, 32, 32);
-    width: 30%;
+    flex: 1;
+    max-width: 35%;
     height: auto;
     border: 1px;
     border-radius: 15px;
     padding: 0.6%;
-    margin: 2% 1% 0% 1%;
+    margin: 5% 1% 0% 1%;
+}
+
+#pr:hover {
+    scale: 1.05;
+    transition: scale 0.3s ease-in-out;
+}
+
+footer {
+    background-color: rgb(36, 32, 32);
+    height: 40%;
+    padding: 5%;
+    width: auto;
 }
 
 

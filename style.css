@@ -44,6 +44,7 @@ h1 {
     margin-left: 5%;
     margin-top: 8%;
     font-size: 58px;
+    font-variant: all-small-caps;
 }
 
 #principal_box {
@@ -62,6 +63,7 @@ h1 {
     background-color: rgb(36, 32, 32);
     width: 100%;
     height: auto;
+    display: flex;
 }
 
 #cabecalho_box p {
@@ -70,6 +72,17 @@ h1 {
     margin: 0;
     text-align: center;
     background-color: black;
+    border-top-right-radius: 8px;
+}
+
+#abas {
+    display: none;
+}
+
+#add_ab {
+    background-color: black;
+    color: rgb(36, 32, 32);
+    border-top-right-radius: 8px;
 }
 
 #box1 {
@@ -111,6 +124,11 @@ h1 {
 
 #box2 img:hover {
     scale: 1.05;
+    transition: scale 0.3s ease-in-out;
+}
+
+#box2 img:not(:hover) {
+    scale: 1;
     transition: scale 0.3s ease-in-out;
 }
 
@@ -188,6 +206,11 @@ h1 {
 
 #pr:hover {
     scale: 1.05;
+    transition: scale 0.3s ease-in-out;
+}
+
+#pr:not(:hover) {
+    scale: 1;
     transition: scale 0.3s ease-in-out;
 }
 

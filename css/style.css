@@ -216,6 +216,26 @@ h1 {
     transition: scale 0.3s ease-in-out;
 }
 
+#popup {
+    background-color: rgb(36, 32, 32);
+}
+
+#popup h3 {
+    text-align: center;
+    margin-left: 50%;
+}
+
+#popup p {
+    text-align: left;
+    margin-left: 50%;
+    width: 50%;
+}
+
+#prev {
+    margin: 0;
+    width: 60%;
+}
+
 footer {
     background-color: rgb(36, 32, 32);
     height: 40%;

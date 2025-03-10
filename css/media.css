@@ -60,7 +60,22 @@
         margin: 20% 0% 0% 0%;
     }
 
+    #pr_popup {
+        flex-direction: column;
+    }
 
+    #carrossel {
+        width: 100%;
+    }
+
+    #close_popup {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: black;
+        text-align: center;
+        width: 4%;
+    }
 }
 
 @media (max-width: 500px) {

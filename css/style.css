@@ -217,7 +217,7 @@ h1 {
 }
 
 #pr_popup {
-    background-color: rgb(36, 32, 32);
+    background-color: #242020;
     display: none;
     position: fixed;
     top: 50%;

@@ -17,3 +17,17 @@ addButton.addEventListener("click", function () {
 
     currentTab++;
 });
+
+let projects = document.querySelectorAll("#pr")
+let close = document.getElementById("close_popup")
+let popup = document.getElementById("pr_popup")
+
+projects.forEach((project) => {
+    project.addEventListener("click", function () {
+        popup.style.display = "flex";
+    }); 
+});
+
+close.addEventListener("click", function () {
+    popup.style.display = "none";
+});

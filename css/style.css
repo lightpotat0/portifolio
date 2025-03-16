@@ -49,14 +49,13 @@ h1 {
 
 #principal_box {
     background-color: black;
-    width: 50%;
-    height: 50%;
+    width: 600px;
+    height: 400px;
     position: static;
     margin-left: auto;
     margin-right: 8%;
     border-radius: 5px;
     border: 10px solid rgb(36, 32, 32);
-    box-shadow: 10px 5px 5px rgb(26, 25, 25);
 }
 
 #cabecalho_box {
@@ -89,7 +88,6 @@ h1 {
 }
 
 #box1 {
-    background-color: black;
     position: static;
     width: 100%;
     height: 100%;
@@ -109,6 +107,64 @@ h1 {
     height: auto;
     text-align: center;
     margin: 0% 5%;
+}
+
+#box1_1 {
+    background-color: black;
+    display: none;
+}
+
+#habilidade ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin-left: 3%;
+    margin-right: auto;
+}
+
+#habilidade li {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    width: 250px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100px auto;
+    align-items: center;
+    gap: 10px;
+}
+
+#caixas {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#caixas img {
+    width: 50px;
+    height: auto;
+    filter: invert();
+    scale: 1;
+}
+
+#caixas h4,
+#caixas p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.box_text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#curriculo {
+    text-align: center;
 }
 
 #box2 img {

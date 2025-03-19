@@ -27,7 +27,10 @@ addButton.addEventListener("click", function () {
             box.style.display = "none";
         });
         curriculo.forEach(function (box3) {
-            box3.style.display = "block";
+            box3.style.display = "grid";
+        })
+        addButton.forEach(function (addabas){
+            addabas.style.animation = "none";
         })
     }
 
@@ -47,3 +50,4 @@ projects.forEach((project) => {
 close.addEventListener("click", function () {
     popup.style.display = "none";
 });
+

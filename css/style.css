@@ -84,8 +84,15 @@ h1 {
 #add_ab {
     background-color: black;
     color: white;
-    border-top-right-radius: 8px;
+    border-radius: 8px;
+    animation: pulse 2s infinite;
+    margin-left: 1%;
 }
+
+@keyframes pulse {
+    0%, 150% { transform: scale(1); }
+    25% { transform: scale(1.2); }
+  }
 
 #box1 {
     position: static;
@@ -166,6 +173,17 @@ h1 {
 #curriculo {
     margin: 0% 5%;
     text-align: center;
+    display: none;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+#curriculo img{ 
+    scale: 5;
+    margin-left: 47%;
+    margin-right: auto;
 }
 
 #box2 img {

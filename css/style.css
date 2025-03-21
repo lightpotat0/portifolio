@@ -38,6 +38,9 @@ nav {
 
 #home-page {
     font-family: Atarifont;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
 }
 
 h1 {
@@ -48,9 +51,10 @@ h1 {
 }
 
 #principal_box {
+    position: absolute;
     background-color: black;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 480px;
     position: static;
     margin-left: auto;
     margin-right: 8%;
@@ -83,8 +87,9 @@ h1 {
 
 #add_ab {
     background-color: black;
-    color: white;
+    color: rgb(0, 255, 0);
     border-radius: 8px;
+    border-color: rgb(0, 255, 0);
     animation: pulse 2s infinite;
     margin-left: 1%;
 }
@@ -187,9 +192,9 @@ h1 {
 }
 
 #box2 img {
-    position: absolute;
-    width: auto;
-    height: 40%;
+    width: 400px; 
+    height: auto;
+    max-width: 100%;
     margin: 2% 10%;
     border-radius: 50%;
     scale: 1;
@@ -218,6 +223,7 @@ h1 {
     background-color: rgb(36, 32, 32);
     justify-content: center;
     position: static;
+    font-family: Atarifont;
 }
 
 #box3 h2 {

@@ -1,4 +1,4 @@
-@media (max-width: 1022px) {
+@media (max-width: 1532px) {
 
     nav {
         height: auto;
@@ -26,10 +26,15 @@
         margin: 0;
     }
 
+    #box2 {
+        width: 500px;
+        height: auto;
+    }
+
     #box2 img {
         width: 30%;
         height: auto;
-        margin-top: 5%;
+        margin-top: 3%;
     }
 
     #cabecalho_box p {
@@ -38,6 +43,7 @@
 
     #principal_box {
         width: 45%;
+        height: 300px;
     }
 
     #box3 h2 {

@@ -39,23 +39,22 @@ nav {
 #home-page {
     font-family: Atarifont;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    align-items: flex-end;
 }
 
 h1 {
-    margin-left: 5%;
     margin-top: 8%;
     font-size: 58px;
     font-variant: all-small-caps;
 }
 
+
 #principal_box {
-    position: absolute;
     background-color: black;
     width: 800px;
-    height: 480px;
-    position: static;
+    height: 500px;
     margin-left: auto;
     margin-right: 8%;
     border-radius: 5px;
@@ -189,6 +188,10 @@ h1 {
     scale: 5;
     margin-left: 47%;
     margin-right: auto;
+}
+
+#box2 {
+    text-align: center;
 }
 
 #box2 img {

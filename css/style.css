@@ -55,8 +55,6 @@ h1 {
     background-color: black;
     width: 800px;
     height: 500px;
-    margin-left: auto;
-    margin-right: 8%;
     border-radius: 5px;
     border: 10px solid rgb(36, 32, 32);
 }
@@ -221,7 +219,7 @@ h1 {
     display: flex;
     align-items: stretch;
     width: 100%;
-    margin-top: 4%;
+    margin-top: 2%;
     height: 20%;
     background-color: rgb(36, 32, 32);
     justify-content: center;

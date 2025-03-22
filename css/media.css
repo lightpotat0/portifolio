@@ -16,6 +16,10 @@
         font-size: 45px;
     }
 
+    #home-page {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     #box1 p {
         padding: 5% 0% 4% 0%;
     }
@@ -44,6 +48,8 @@
     #principal_box {
         width: 45%;
         height: 300px;
+        margin-left: 25%;
+        margin-right: auto;
     }
 
     #box3 h2 {
